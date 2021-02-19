@@ -1,9 +1,8 @@
 ---
 title: "Teste de estatística - estuda.com"
 author: "Priscila Dalepiane"
-date: "2021"
 output:
-  html_document:
+  html_document:git remote -v
     code_folding: hide
     keep_md: yes
     toc: yes
@@ -36,7 +35,7 @@ require(formattable)
 # Dados {-}
 ```{r, results="markup", warning=FALSE, message=FALSE, error=FALSE}
 #Importacao dos dados
-dadosteste <- read.csv("C:/Users/USER/OneDrive/Estuda/dados_teste.csv")
+dadosteste <- read.csv("C:\\Users\\USER\\Documents\\Est\\dados_teste.csv")
 
 glimpse(dadosteste)
 

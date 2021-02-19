@@ -1,6 +1,9 @@
 ##Limpar Memoria
 rm(list=ls())
 
+##Diretorio
+setwd("C:\\Users\\USER\\Documents\\Est")
+
 ## Instalar Pacotes
 #install.packages("devtools")
 #install.packages("tidyverse")
@@ -14,7 +17,7 @@ require(DT)
 require(formattable)
 
 #Importacao dos dados
-dadosteste <- read.csv("C:/Users/USER/OneDrive/Estuda/dados_teste.csv")
+dadosteste <- read.csv("dados_teste.csv")
 #Vizualizacao
 glimpse(dadosteste)
 
